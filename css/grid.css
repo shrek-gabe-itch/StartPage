@@ -1,0 +1,96 @@
+#Dropbox {
+	background: #007ee5;
+}
+#Dropbox img {
+	width: 60px;
+}
+#GitHub {
+	background: #25292e;
+}
+#GitHub img {
+	width: 60px;
+}
+#GKeep1 {
+	background: #ffbb00;
+}
+#GKeep1 img {
+	width: 48px;
+}
+#GKeep2 {
+	background: #ffbb00;
+}
+#GKeep2 img {
+	width: 48px;
+}
+#Imgur {
+	background: #34373c;
+}
+#Imgur img {
+	width: 125px;
+}
+#Instagram {
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+#Pinterest {
+	background: #bd081c;
+}
+#Reddit {
+	background: #ff4500;
+}
+#Reddit img {
+	width: 70px;
+}
+#Twitch {
+	background: #6441a5;
+}
+#Twitch img {
+	width: 60px;
+}
+#Twitter {
+	background: #1da1f2;
+}
+#Twitter img {
+	width: 65px;
+}
+#YouTube {
+	background: #ff0000;
+}
+#YouTube img {
+	width: 75px;
+}
+#SoundCloud {
+	background: #ff7700;
+}
+#SoundCloud img{
+	width: 75px;
+}
+#VK {
+	background: #3573B9;
+}
+#VK img {
+	width: 80px;
+}
+#GDrive1 {
+	background: #fff;
+}
+#GDrive1 img {
+	width: 65px;
+}
+#GDrive2 {
+	background: #fff;
+}
+#GDrive2 img {
+	width: 65px;
+}
+#APKMirror {
+	background: #f66816;
+}
+#APKMirror img {
+	width: 90px;
+}
+#Unsplash {
+	background: #fff;
+}
+#Unsplash img {
+	width: 60px;
+}

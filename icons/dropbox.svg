@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" x="0" y="0" version="1.1" viewBox="0 0 16 16" xml:space="preserve">
+  <defs/>
+  <style>
+    .st0{fill:#fff}
+  </style>
+  <path d="M4.7.6L0 3.6l3.3 2.6L8 3.3 4.7.6zM0 8.8l4.7 3.1L8 9.2l-4.7-3L0 8.8zm8 .4l3.3 2.7L16 8.8l-3.3-2.6-4.7 3zm8-5.6L11.3.5 8 3.3l4.7 2.9L16 3.6z" class="st0"/>
+  <path d="M8 9.8l-3.3 2.7-1.4-.9v1L8 15.4l4.7-2.8v-1l-1.4.9L8 9.8z" class="st0"/>
+</svg>
