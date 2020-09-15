@@ -87,7 +87,7 @@ a span:first-child {
 	margin: 0 auto;
 }
 .menu-wrapper:hover .menu ul li a {
-	font-family: "Product Sans", "HelveticaNeue", "Roboto", sans-serif;
+	font-family: "Product Sans";
 	font-weight: 400;
 	text-decoration: none;
 	display: block;
@@ -180,8 +180,8 @@ a span:first-child {
 	opacity: 0;
 	position: absolute;
 	font-size: 16px;
-	font-family: "Product Sans Medium", "HelveticaNeue", "Roboto", sans-serif;
-	font-weight: 400;
+	font-family: "Product Sans";
+	font-weight: 500;
 	text-rendering: optimizeLegibility;
 	transition: all ease-in-out 150ms;
 	top: 77px;
