@@ -1,17 +1,16 @@
 var grid = document.getElementById("grid");
 var sortable = new Sortable(grid, {
 	forceFallback: true,
-	sort: true,
 	animation: 250,
 	dataIdAttr: "id",
 	store: {
 		get: function (sortable) {
   			var order = localStorage.getItem(sortable.options.group.name);
-  			return order ? order.split(",") : [];
+  			return order ? order.split("|") : [];
 		},
 		set: function (sortable) {
 			var order = sortable.toArray();
-			localStorage.setItem(sortable.options.group.name, order.join(","));
+			localStorage.setItem(sortable.options.group.name, order.join("|"));
     	},
 	}
 });
