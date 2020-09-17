@@ -1,5 +1,5 @@
-var grid = document.getElementById("grid");
-var sortable = new Sortable(grid, {
+var cards = document.getElementById("cards");
+var sortable = new Sortable(cards, {
 	forceFallback: true,
 	animation: 250,
 	dataIdAttr: "id",

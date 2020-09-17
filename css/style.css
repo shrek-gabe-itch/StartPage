@@ -212,3 +212,7 @@ a span:first-child {
 	opacity: 0;
 	pointer-events: none;
 }
+
+.sortable-fallback {
+	opacity: 1 !important
+}
