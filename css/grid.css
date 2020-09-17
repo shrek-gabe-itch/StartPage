@@ -59,4 +59,5 @@
 #DeviantArt {background: #06070d;}
 #DeviantArt img {width: 140px;}
 
-/*#AndroidPolice {background: url("../icons/androidpolicebg.svg");}*/
+#AndroidPolice {background: url("../icons/androidpolice_bg.svg");}
+#AndroidPolice img { width: 90px;}
