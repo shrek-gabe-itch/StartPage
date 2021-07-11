@@ -9,43 +9,42 @@
 	<link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Product+Sans:400,500">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/cards.css">
-	<script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
-</head> 
+	<script src="js/sortable.js"></script> <!-- sortablejs@1.10.2 -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script> -->
+</head>
 
 <body>	
 <div class="background"></div>
 <div class="menu-wrapper">
 	<div class="menu" id="menu"><img src="icons/menu.svg"/>
 		<ul>
-			<li><a href="https://google.com">1</a></li>
-			<li><a href="https://google.com">2</a></li>
-			<li><a href="https://google.com">3</a></li>
-			<li><a href="https://google.com">4</a></li>
-			<li><a href="https://google.com">5</a></li>
+			<li><a href="https://drive.google.com/drive/u/0/my-drive">Drive 1</a></li>
+			<!-- <li><a href="https://drive.google.com/drive/u/1/my-drive">Drive 2</a></li>	-->
+			<li><a href="https://keep.google.com/u/0">Keep 1</a></li>
+			<!-- <li><a href="https://keep.google.com/u/1">Keep 2</a></li> -->
+			<li><a href="https://photos.google.com/u/0/">Photos 1</a></li>
+			<!-- <li><a href="https://photos.google.com/u/1/">Photos 2</a></li> -->
 		</ul>
 	</div>
 </div>
 <div class="fluid-container">
 	<div class="sites" id="cards">
-		<b><a id="Instagram" 		href="https://instagram.com">							<img src="icons/instagram.svg"/>		<span id="title">Instagram</span></a></b>
-		<b><a id="Twitter"			href="https://twitter.com">								<img src="icons/twitter.svg"/>			<span id="title">Twitter</span></a></b>
-		<b><a id="YouTube"			href="https://www.youtube.com/feed/subscriptions">		<img src="icons/youtube.svg"/>			<span id="title">YouTube</span></a></b>
-		<b><a id="Imgur"			href="https://imgur.com">								<img src="icons/imgur.svg"/>			<span id="title">Imgur</span></a></b>
-		<b><a id="Reddit"			href="https://reddit.com">								<img src="icons/reddit.svg"/>			<span id="title">Reddit</span></a></b>
-		<b><a id="GKeep1"			href="https://keep.google.com/u/0">						<img src="icons/gkeep.svg"/>			<span id="title">Google Keep 1</span></a></b>
-		<b><a id="GKeep2"			href="https://keep.google.com/u/1">						<img src="icons/gkeep.svg"/>			<span id="title">Google Keep 2</span></a></b>
-		<b><a id="Twitch"			href="https://twitch.tv">								<img src="icons/twitch.svg"/>			<span id="title">Twitch</span></a></b>
-		<b><a id="Dropbox"			href="https://dropbox.com">								<img src="icons/dropbox.svg"/>			<span id="title">Dropbox</span></a></b>
-		<b><a id="SoundCloud"		href="https://soundcloud.com/you/likes"> 				<img src="icons/soundcloud.svg"/>		<span id="title">SoundCloud</span></a></b>
-		<b><a id="VK"				href="https://vk.com/feed">								<img src="icons/vk.svg"/>				<span id="title">VK</span></a></b>
-		<b><a id="GDrive1"			href="https://drive.google.com/drive/u/0/my-drive">		<img src="icons/gdrive.svg"/>			<span id="title">Google Drive 1</span></a></b>
-		<b><a id="GDrive2"			href="https://drive.google.com/drive/u/1/my-drive">		<img src="icons/gdrive.svg"/>			<span id="title">Google Drive 2</span></a></b>
-		<b><a id="APKMirror"		href="https://www.apkmirror.com">						<img src="icons/apkmirror.svg"/>		<span id="title">APKMirror</span></a></b>
-		<b><a id="Pinterest"		href="https://www.pinterest.ru">						<img src="icons/pinterest.svg"/>		<span id="title">Pinterest</span></a></b>
-		<b><a id="Unsplash"			href="https://unsplash.com">							<img src="icons/unsplash.svg"/>			<span id="title">Unsplash</span></a></b>
-		<b><a id="GitHub"			href="https://github.com">								<img src="icons/github.svg"/>			<span id="title">GitHub</span></a></b>
-		<b><a id="DeviantArt"		href="https://www.deviantart.com">						<img src="icons/deviantart.svg"/>		<span id="title">DeviantArt</span></a></b>
-		<b><a id="AndroidPolice"	href="https://www.androidpolice.com/">					<img src="icons/androidpolice.svg"/>	<span id="title">AndroidPolice</span></a></b>
+		<b><a id="instagram"		href="https://instagram.com">					<img src="icons/instagram.svg"/>		<span id="title">Instagram</span></a></b>
+		<b><a id="twitter"			href="https://twitter.com">						<img src="icons/twitter.svg"/>			<span id="title">Twitter</span></a></b>
+		<b><a id="imgur"			href="https://imgur.com">						<img src="icons/imgur.svg"/>			<span id="title">Imgur</span></a></b>
+		<b><a id="reddit"			href="https://reddit.com">						<img src="icons/reddit.svg"/>			<span id="title">Reddit</span></a></b>
+		<b><a id="twitch"			href="https://twitch.tv">						<img src="icons/twitch.svg"/>			<span id="title">Twitch</span></a></b>
+		<b><a id="dropbox"			href="https://dropbox.com">						<img src="icons/dropbox.svg"/>			<span id="title">Dropbox</span></a></b>
+		<b><a id="soundcloud"		href="https://soundcloud.com/you/likes">		<img src="icons/soundcloud.svg"/>		<span id="title">SoundCloud</span></a></b>
+		<b><a id="apkmirror"		href="https://www.apkmirror.com">				<img src="icons/apkmirror.svg"/>		<span id="title">APKMirror</span></a></b>
+		<b><a id="pinterest"		href="https://www.pinterest.ru">				<img src="icons/pinterest.svg"/>		<span id="title">Pinterest</span></a></b>
+		<b><a id="unsplash"			href="https://unsplash.com">					<img src="icons/unsplash.svg"/>			<span id="title">Unsplash</span></a></b>
+		<b><a id="github"			href="https://github.com">						<img src="icons/github.svg"/>			<span id="title">GitHub</span></a></b>
+		<b><a id="deviantart"		href="https://www.deviantart.com">				<img src="icons/deviantart.svg"/>		<span id="title">DeviantArt</span></a></b>
+		<b><a id="androidpolice"	href="https://www.androidpolice.com">			<img src="icons/androidpolice.svg"/>	<span id="title">AndroidPolice</span></a></b>
+		<b><a id="gtranslate"		href="https://translate.google.com">			<img src="icons/gtranslate.svg"/>		<span id="title">Google Translate</span></a></b>
+		<b><a id="genshin"			href="https://genshin.mihoyo.com/en/news">		<img src="icons/genshin.svg"/>			<span id="title">Genshin News</span></a></b>
+		<b><a id="tiktok"			href="https://www.tiktok.com">					<img src="icons/tiktok.svg"/>			<span id="title">TikTok</span></a></b>
 	</div>
 </div>
 <script src="js/index.js"></script>

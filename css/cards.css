@@ -1,4 +1,4 @@
-#Instagram {
+#instagram {
 	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
 	radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
 	radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
@@ -9,55 +9,68 @@
 	linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 }
 
-#Twitter {background: #1da1f2;}
-#Twitter img {width: 65px;}
+#twitter {background: #1da1f2;}
+#twitter img {width: 65px;}
 
-#YouTube {background: #ff0000;}
-#YouTube img {width: 75px;}
+/*#youtube {background: #ff0000;}
+#youtube img {width: 75px;}*/
 
-#Imgur {background: #34373c;}
-#Imgur img {width: 140px;}
+#imgur {background: #34373c;}
+#imgur img {width: 140px;}
 
-#Reddit {background: #ff4500;}
-#Reddit img {width: 70px;}
+#reddit {background: #ff4500;}
+#reddit img {width: 70px;}
 
-#GKeep1 {background: #ffbb00;}
-#GKeep1 img {width: 48px;}
+/*#GKeep1 {background: #ffbb00;}
+#GKeep1 img {width: 48px;}*/
 
-#GKeep2 {background: #ffbb00;}
-#GKeep2 img {width: 48px;}
+/*#GKeep2 {background: #ffbb00;}
+#GKeep2 img {width: 48px;}*/
 
-#Twitch {background: #6441a5;}
-#Twitch img {width: 60px;}
+#twitch {background: #6441a5;}
+#twitch img {width: 60px;}
 
-#Dropbox {background: #007ee5;}
-#Dropbox img {width: 60px;}
+#dropbox {background: #007ee5;}
+#dropbox img {width: 60px;}
 
-#SoundCloud {background: #ff7700;}
-#SoundCloud img{width: 75px;}
+#soundcloud {background: #ff7700;}
+#soundcloud img{width: 75px;}
 
-#VK {background: #3573B9;}
-#VK img {width: 80px;}
+/*#vk {background: #3573B9;}
+#vk img {width: 80px;}*/
 
-#GDrive1 {background: #fff;}
-#GDrive1 img {width: 65px;}
+/*#GDrive1 {background: #fff;}
+#GDrive1 img {width: 65px;}*/
 
-#GDrive2 {background: #fff;}
-#GDrive2 img {width: 65px;}
+/*#GDrive2 {background: #fff;}
+#GDrive2 img {width: 65px;}*/
 
-#APKMirror {background: #f66816;}
-#APKMirror img {width: 90px;}
+#apkmirror {background: #f66816;}
+#apkmirror img {width: 90px;}
 
-#Pinterest {background: #bd081c;}
+#tiktok {background: #000;}
+#tiktok img {width: 75px;}
 
-#Unsplash {background: #fff;}
-#Unsplash img {width: 60px;}
+#pinterest {background: #bd081c;}
 
-#GitHub {background: #25292e;}
-#GitHub img {width: 60px;}
+#unsplash {background: #fff;}
+#unsplash img {width: 60px;}
 
-#DeviantArt {background: #06070d;}
-#DeviantArt img {width: 140px;}
+#github {background: #25292e;}
+#github img {width: 60px;}
 
-#AndroidPolice {background: url("../icons/androidpolice_bg.svg");}
-#AndroidPolice img { width: 90px;}
+#deviantart {background: #06070d;}
+#deviantart img {width: 140px;}
+
+#androidpolice {background: url("../icons/androidpolice_bg.webp");}
+#androidpolice img { width: 90px;}
+
+#gtranslate {background: linear-gradient(75deg, #4285F4 55%, #DBDBDB 55.5%);}
+#gtranslate img {width: 160px;}
+
+#genshin {
+	background: url("../icons/genshin_bg.webp");
+}
+
+#genshin img { width: 140px; }
+
