@@ -1,7 +1,7 @@
 var cards = document.getElementById("cards");
 var sortable = new Sortable(cards, {
 	forceFallback: true,
-	delay: 5,
+	delay: 500,
 	delayOnTouchOnly: true,
 	animation: 450,
 	dataIdAttr: "id",
